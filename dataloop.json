@@ -1,0 +1,82 @@
+{
+  "version": "0.0.1",
+  "name": "embeding-clustering",
+  "displayName": "Embeding-clustering",
+  "description": "",
+  "scope": "public",
+  "codebase": {
+    "type": "git",
+    "gitUrl": "https://github.com/dataloop-ai-apps/clustering-tab.git",
+    "gitTag": "0.0.1"
+  },
+  "components": {
+    "panels": [
+      {
+        "name": "tensorboard",
+        "supportedSlots": [
+          {
+            "type": "datasetBrowser",
+            "configuration": {}
+          }
+        ],
+        "conditions": {}
+      }
+    ],
+    "toolbars": [
+      {
+        "displayName": "Clustering",
+        "icon": "",
+        "invoke": {
+          "type": "panel",
+          "namespace": "tensorboard"
+        },
+        "location": "datasetBrowserTab"
+      }
+    ],
+    "modules": [
+      {
+        "name": "tensorboard",
+        "entryPoint": "main.py",
+        "className": "Runner",
+        "initInputs": [],
+        "config": {
+          "isCustomServer": true
+        },
+        "functions": [
+          {
+            "name": "run",
+            "output": [],
+            "input": []
+          }
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "tensorboard-runners",
+        "moduleName": "tensorboard",
+        "panelNames": ["tensorboard"],
+        "initParams": {},
+        "runtime": {
+          "podType": "highmem-l",
+          "numReplicas": 1,
+          "concurrency": 10,
+          "runnerImage": "ludohor/tensorboardprojector:dev",
+          "singleAgent": false,
+          "autoscaler": {
+            "type": "rabbitmq",
+            "minReplicas": 1,
+            "maxReplicas": 1,
+            "queueLength": 1
+          },
+          "preemptible": false,
+          "executionTimeout": 3600,
+          "drainTime": 600,
+          "onReset": "failed",
+          "runExecutionAsProcess": false
+        },
+        "maxAttempts": 3
+      }
+    ]
+  }
+}
