@@ -65,7 +65,7 @@
           "podType": "highmem-l",
           "numReplicas": 1,
           "concurrency": 10,
-          "runnerImage": "ludohor/tensorboardprojector:dev",
+          "runnerImage": "gcr.io/viewo-g/piper/agent/cpu/dataset-clustering:0.1.0",
           "singleAgent": false,
           "autoscaler": {
             "type": "rabbitmq",
