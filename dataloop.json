@@ -62,7 +62,7 @@
         "panelNames": ["tensorboard"],
         "initParams": {},
         "runtime": {
-          "podType": "highmem-l",
+          "podType": "regular-s",
           "numReplicas": 1,
           "concurrency": 10,
           "runnerImage": "gcr.io/viewo-g/piper/agent/cpu/dataset-clustering:0.1.0",
