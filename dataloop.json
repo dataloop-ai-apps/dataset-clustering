@@ -6,7 +6,7 @@
   "scope": "public",
   "attributes": {
     "Provider": "Dataloop",
-    "Category": "Element"
+    "Category": "Application"
   },
   "codebase": {
     "type": "git",
