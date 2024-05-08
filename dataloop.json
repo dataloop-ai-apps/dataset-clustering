@@ -65,6 +65,7 @@
         "moduleName": "tensorboard",
         "panelNames": ["tensorboard"],
         "initParams": {},
+        "botUserName": "pipelines@dataloop.ai",
         "runtime": {
           "podType": "regular-s",
           "numReplicas": 1,
