@@ -1,9 +1,9 @@
 {
   "version": "0.2.3",
-  "name": "embeding-clustering",
-  "displayName": "Clustering Tab",
+  "name": "dataset-clustering",
+  "displayName": "Dataset Clustering",
   "description": "Tab for clustering and visualization of embeddings",
-  "scope": "public",
+  "scope": "system",
   "attributes": {
     "Provider": "Dataloop",
     "Category": "Application"
