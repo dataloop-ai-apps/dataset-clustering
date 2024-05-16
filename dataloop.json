@@ -3,7 +3,7 @@
   "name": "dataset-clustering",
   "displayName": "Dataset Clustering",
   "description": "Tab for clustering and visualization of embeddings",
-  "scope": "system",
+  "scope": "public",
   "attributes": {
     "Provider": "Dataloop",
     "Category": "Application"
