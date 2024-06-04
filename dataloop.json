@@ -6,7 +6,10 @@
   "scope": "public",
   "attributes": {
     "Provider": "Dataloop",
-    "Category": "Application"
+    "Category": "Application",
+    "Application Type": "Studio",
+    "Libraries": ["TensorFlow", "Torch"],
+    "License": "Apache 2.0"
   },
   "codebase": {
     "type": "git",
