@@ -70,7 +70,7 @@
         "initParams": {},
         "botUserName": "tab-apps@dataloop.ai",
         "runtime": {
-          "podType": "regular-s",
+          "podType": "hihgmem-l",
           "numReplicas": 1,
           "concurrency": 10,
           "runnerImage": "gcr.io/viewo-g/piper/agent/cpu/dataset-clustering:0.2.0",
