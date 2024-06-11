@@ -2,6 +2,7 @@ import subprocess
 import select
 import logging
 import os
+from threading import Thread
 
 # Configure logging
 os.chdir("/")
@@ -28,7 +29,9 @@ class Runner:
             text=True, bufsize=1
         )
         logger.info('stream logs')
-        self.stream_logs()
+        thread = Thread(target=self.stream_logs)
+        thread.daemon = True
+        thread.start()
         logger.info('stream logs finished')
 
     def stream_logs(self):
@@ -60,8 +63,7 @@ class Runner:
                 stream.close()
 
     def run(self):
-        logger.info('Runner run')
-        self.stream_logs()
+        logger.info('runner run')
 
 
 if __name__ == "__main__":
