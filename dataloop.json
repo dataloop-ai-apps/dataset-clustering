@@ -7,7 +7,7 @@
   "attributes": {
     "Provider": "Dataloop",
     "Category": "Application",
-    "Application Type": "Studio",
+    "Application Type": "Data Management",
     "Libraries": ["TensorFlow", "Torch"],
     "License": "Apache 2.0"
   },
