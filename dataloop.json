@@ -1,6 +1,6 @@
 {
   "version": "0.2.18",
-  "name": "dataset-clustering",
+  "name": "embeding-clustering",
   "displayName": "Dataset Clustering",
   "description": "Tab for clustering and visualization of embeddings",
   "scope": "public",
