@@ -13,6 +13,10 @@ def cleanup_old_data(log_dir):
 
     for folder in os.listdir(log_dir):
         folder_path = os.path.join(log_dir, folder)
+        if folder == "datasets":
+            logger.info(f"Skipping folder: {folder_path}")
+            continue
+
         if os.path.isdir(folder_path):
             is_folder_empty = True
             for file in os.listdir(folder_path):
