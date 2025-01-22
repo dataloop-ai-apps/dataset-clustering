@@ -73,7 +73,7 @@
           "podType": "highmem-l",
           "numReplicas": 1,
           "concurrency": 10,
-          "runnerImage": "gcr.io/viewo-g/piper/agent/cpu/dataset-clustering:0.9.5",
+          "runnerImage": "gcr.io/viewo-g/piper/agent/cpu/dataset-clustering:0.9.6",
           "singleAgent": false,
           "autoscaler": {
             "type": "rabbitmq",
