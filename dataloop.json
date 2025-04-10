@@ -35,6 +35,7 @@
     ],
     "toolbars": [
       {
+        "name": "clustering",
         "displayName": "Clustering",
         "icon": "",
         "invoke": {
