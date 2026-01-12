@@ -1,5 +1,5 @@
 {
-  "version": "0.2.75",
+  "version": "0.2.76",
   "name": "embeding-clustering",
   "displayName": "Dataset Clustering",
   "description": "Tab for clustering and visualization of embeddings",
@@ -14,7 +14,7 @@
   "codebase": {
     "type": "git",
     "gitUrl": "https://github.com/dataloop-ai-apps/clustering-tab.git",
-    "gitTag": "0.2.75"
+    "gitTag": "0.2.76"
   },
   "components": {
     "panels": [
