@@ -4,21 +4,21 @@ Leveraging TensorFlow's TensorBoard Embedding Projector.
 
 ### Overview
 
-The Clustering App is an innovative extension of the [TensorBoard Embedding Projector](https://github.com/tensorflow/tensorboard), tailored to integrate seamlessly with the Dataloop platform and its datasets. This enhancement empowers Dataloop users by providing a robust 3D/2D visualization tool, specifically designed to explore and understand complex relationships within their data.
+The Clustering App is an innovative extension of the [TensorBoard Embedding Projector](https://github.com/tensorflow/tensorboard), tailored to integrate seamlessly with the DDOE platform and its datasets. This enhancement empowers DDOE users by providing a robust 3D/2D visualization tool, specifically designed to explore and understand complex relationships within their data.
 
 ### Key Enhancements
 
-- **Integration with Dataloop**: Optimized to work effortlessly with the Dataloop platform.
+- **Integration with DDOE**: Optimized to work effortlessly with the DDOE platform.
 
-- **Seamless Integration with Dataloop Annotations**: Tailored to work fluidly with Dataloop’s annotated datasets, enabling a deeper analysis of annotated data elements.
+- **Seamless Integration with DDOE Annotations**: Tailored to work fluidly with DDOE’s annotated datasets, enabling a deeper analysis of annotated data elements.
 
 ### Prerequisites
 
-- **Embeddings Model Installation**: Users must install an embeddings model into their Dataloop datasets. This step is crucial for the app to process and visualize data.
+- **Embeddings Model Installation**: Users must install an embeddings model into their DDOE datasets. This step is crucial for the app to process and visualize data.
 
 ### Using the Clustering App
 
-- As an integral part of the Dataloop platform, the Clustering App requires no separate installation.
+- As an integral part of the DDOE platform, the Clustering App requires no separate installation.
 
 ### Custom Development
 

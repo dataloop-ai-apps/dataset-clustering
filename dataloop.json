@@ -5,7 +5,7 @@
   "description": "Tab for clustering and visualization of embeddings",
   "scope": "public",
   "attributes": {
-    "Provider": "Dataloop",
+    "Provider": "DDOE",
     "Category": "Application",
     "Application Type": "Data Management",
     "Libraries": ["TensorFlow", "Torch"],
