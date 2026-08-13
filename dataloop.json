@@ -74,7 +74,7 @@
           "podType": "highmem-l",
           "numReplicas": 1,
           "concurrency": 10,
-          "runnerImage": "hub.dataloop.ai/customerhub/piper/agent/runner/cpu/dataset-clustering:2.1.2",
+          "runnerImage": "hub.dataloop.ai/dtlpy-runner-images/dataset-clustering:2.1.2",
           "singleAgent": false,
           "autoscaler": {
             "type": "rabbitmq",
