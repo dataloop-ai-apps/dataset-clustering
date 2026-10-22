@@ -1,5 +1,5 @@
 {
-  "version": "0.2.97",
+  "version": "0.2.100",
   "name": "embeding-clustering",
   "displayName": "Dataset Clustering",
   "description": "Tab for clustering and visualization of embeddings",
@@ -74,7 +74,7 @@
           "podType": "highmem-l",
           "numReplicas": 1,
           "concurrency": 10,
-          "runnerImage": "gcr.io/viewo-g/piper/agent/cpu/dataset-clustering:2.1.5",
+          "runnerImage": "hub.dataloop.ai/customerhub/piper/agent/cpu/dataset-clustering:2.1.5",
           "singleAgent": false,
           "autoscaler": {
             "type": "rabbitmq",
