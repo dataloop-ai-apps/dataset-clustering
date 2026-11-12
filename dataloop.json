@@ -69,12 +69,11 @@
         "moduleName": "tensorboard",
         "panelNames": ["tensorboard"],
         "initParams": {},
-        "botUserName": "tab-apps@dataloop.ai",
         "runtime": {
           "podType": "highmem-l",
           "numReplicas": 1,
           "concurrency": 10,
-          "runnerImage": "hub.dataloop.ai/customerhub/piper/agent/cpu/dataset-clustering:2.1.6",
+          "runnerImage": "hub.dataloop.ai/customerhub/piper/agent/runner/cpu/dataset-clustering:2.1.6",
           "singleAgent": false,
           "autoscaler": {
             "type": "rabbitmq",
@@ -91,5 +90,6 @@
         "maxAttempts": 3
       }
     ]
-  }
+  },
+  "trusted": true
 }
